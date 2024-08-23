@@ -1,0 +1,16 @@
+h1{
+    color: red; /*color change karva mate*/
+    background-color: yellow;
+}
+p{
+    color: chartreuse;
+}
+button{
+    color: blue;
+    background-color: rgb(234, 57, 63);
+    border-color: white; /*border color karva mate*/
+    border-radius: 10px; /*border ni golai set karva mate*/
+}
+body{
+    background-color: aqua;
+}

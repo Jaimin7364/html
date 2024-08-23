@@ -1,0 +1,159 @@
+<!DOCTYPE html> <!--tells browsser you are using HTML5-->
+<html lang="en"> <!--root of an html document-->
+<head>           <!--container for metadata-->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title> <!--page title-->
+  </head>
+  <body>    <!--all data body rendered by browser-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>This is paragraph</p> <!--paragraph tag-->
+    <a href="https://www.youtube.com/">youtube </a>  <!--koi vastu link karava mate -->
+    <br/>  <!--for new line-->
+    <a href="https://www.google.com/">google</a>
+    <br/>
+    <a href="/hello.html">go to hello</a>  <!--aapda j bija web nu page nakhava mate-->
+    <br/>
+    <img src="https://m.media-amazon.com/images/I/41e3YGKg-3L._AC_UF1000,1000_QL80_.jpg" alt="Notebook" height="100"/>
+    <!--img tag koi image tag karava mate and alt tag jo koi image load na thay to teni andar lakhelu name show kard chhe. than hieght enter karva mate.-->
+    <br>
+    <header><h3>Education</h3>
+    </header>
+    <main>
+      <section>  <!--for diffrent section-->
+        exoeriences : NSIT (COE)  | school (GGU)
+      </section>
+      <article>  <!--for any artials-->
+        My stories :
+      </article>
+      <aside> <!--koi ads ne badhu chalava mate je aapdi web no bhag nathi-->
+        This is an add :
+      </aside>
+    </main>
+    <footer><h4>Footer</h4>
+    </footer>
+    <pre>jaimin yogesh</pre>  <!--pre tag ma tame jevo pan paragraph lakho chho tevo j ave chhe ema space pan 
+    ganayi jay chhe jyare p tag ma aa thatu nathi-->
+    <br>
+    <a href="https://www.google.com/" target="main">Google</a> <!--koi link ne nava tab ma kholva ane aagal tab pan amej chalu j rese-->
+    <br>
+    <a href="https://www.google.com/" target="main"><img src="https://blog.hubspot.com/hubfs/image8-2.jpg" alt="google" height="100"></a> <!--koi image ne clickeable banava mate 
+    img koi image muki shakay or teni link pan chale-->
+    <br>
+    <div></div> <!--emj koi main body na jevu j use karay thodi jagya joie to pan te aakhi line j rese-->
+    <br> <!--for new line-->
+    <span></span> <!--div na jevu j pan jaruri jagya j lese aakhli ne lese nahi-->
+    <br>
+    <p>H<sub>2</sub>O</p> <!--aava koi formula lakhva mate ahi 2 ae niche prit thase-->
+    <br>
+    <p>3<sup>2</sup>=2</p> <!--power lakhva mate-->
+    <ul> <!--koi list banava mate jema aagal bullets aavse-->
+      <li>Apple</li> <!--list na elements-->
+       <ul> <!--sub list-->
+        <li>Color : red</li>
+        <li>Season : Winter</li>
+       </ul>
+      <li>Mango</li>
+      <ul> <!--sub list-->
+        <li>Color : Yellow</li>
+        <li>Season : Summer</li>
+       </ul>
+    <br>
+    <ol> <!--koi list number sathe lakhva mate-->
+    <li>Apple</li> <!--list na elements-->
+    <ol> <!--sub list-->
+        <li>Color : red</li>
+        <li>Season : Winter</li>
+    </ol>
+    <li>Mango</li>
+    <ol> <!--sub list-->
+        <li>Color : Yellow</li>
+        <li>Season : Summer</li>
+    </ol>
+    <br>
+    <pre>
+    <table> <!--table banava mate-->
+      <caption>Studen data</caption>
+      <thead> <!--table nu header-->
+      <tr>  <!--navi row add karva-->
+        <th>| Name |</th> <!--table ma point aapva mate-->
+        <th>Roll No.|</th>
+      </tr>
+    </thead>
+    <tbody> <!--table ni main body-->
+      <tr>
+        <td>|Jaimin|</td> <!--table ni details-->
+        <td>  111   |</td>
+      </tr>
+      <tr>
+        <td>|Jaimin|</td>
+        <td>  111   |</td>
+      </tr>
+      <tr>
+        <td>|Jaimin|</td>
+        <td>  111   |</td>
+      </tr>
+    </table>
+    </tbody>
+    </pre>
+    <h3>regisration form</h3>
+    <form action="action.php"></form> <!--koi pan form banava mate jema action ae user name ae badhu check kare chhe je java script thi thay chhe -->
+    <input type="text" placeholder="username"> <!--koi form ma input leva mate ex. username and password-->
+    <br>
+    <br>
+    <input type="password" placeholder="Password">
+    <br>
+    <h5>select your class</h5>
+    <br>
+    <label for="111"> <!--lable no use karavathi radio button ma rahela text par pantick karavathi button click thase and lable ma id aapvi jaruri chhe -->
+    <input type="radio" value="class XI" name="class" id="111">class XI <!--ahi radio ae koi option select krva mate nu button chhe jema name ae backend pase jase ke tame su select karyu chhe etle ahi class namna name ma je class select karo ae backend pase jase pan value to alaga j rese-->
+    </label>
+    <br>
+    <label for="112">
+    <input type="radio" value="class XII" name="class" id="112">class XII
+    </label>
+    <br>
+    <!-- <div id="id1" class="group1"></div> aama class use karine koi group nu formating karavathi te aakha group ma apply thase-->
+    <br>
+    <h5>select your subjects</h5>
+    <br>
+    <label for="101">
+    <input type="checkbox" value="math" name="subject" id="101">math <!--checkbox no yse radio button jevo j chhe pan aama aapde multiple option select kari sakie siye jyare radio button ma ek j thay-->
+    </label>
+    <br>
+    <label for="102">
+    <input type="checkbox" value="physics" name="subject" id="102">physics
+    </label>
+    <br>
+    <label for="103">
+    <input type="checkbox" value="chem" name="subject" id="103">chem
+    </label>
+    <br>
+    <h5>select your city</h5>
+    <select name="city" id=""> <!--koi drop down selection mate-->
+        <option value="Delhi">Delhi</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Mehasana">Mehasana</option>
+    </select>
+    <br>
+    <h5>feedback</h5>
+    <textarea name="feedback" id="104"placeholder="please give your feedback" cols="30" rows="10">feedback</textarea>
+    <!--textarea ae user ne koi vadhara nu lakan lakhva mate ex. feedback and ema row and colm na lakho to pan chaale-->
+    <br>
+    <input type="submit" name="submit" id=""> <!--last ma form submit karva mate-->
+    <br>
+    <iframe <iframe width="320" height="566" src="https://www.youtube.com/embed/8AGrIVnRdAQ" title="emoji for loop in c language|for loop|technical talk|c language tutorial | #coding  #technical" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>></iframe>
+    <!--iframe no use website ma website chalava mae ex.yotube no video website ma chalava mate-->
+    <br>
+    <br>
+    <iframe src="https://jaimin736.github.io/techjaimin/" frameborder="3" width="550" height="500"></iframe>
+    <br>
+    <video src="/my video.mp4 "width="560" height="315" controls></video> 
+    <!--video lavava mate pela video aa file ma copy karvo pade then play karvo hoy to contrl namno option lakhavo to j play thse then loop lakhavathi auto play thase-->
+  </body>
+</html>
