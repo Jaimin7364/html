@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem; /*aanathi aapda text ae top and bottom thi center ma aavi jase*/
+
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 15%;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+#user_score, #comp_score{
+    font-size: 4rem;
+}
+.msg_container{
+    margin-top: 4rem;
+}
+#msg{
+    background-color:#081b31 ;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.score{
+    background-color: coral;
+    color: white;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
